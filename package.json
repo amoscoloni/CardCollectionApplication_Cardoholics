@@ -1,5 +1,5 @@
 {
-  "name": "web2project",
+  "name": "CardCollectionApplication_Cardoholics",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Simon-Stasovski/Web2Project.git"
+    "url": "git+https://github.com/amoscoloni/CardCollectionApplication_Cardoholics/tree/main"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Simon-Stasovski/Web2Project/issues"
+    "url": "https://github.com/amoscoloni/CardCollectionApplication_Cardoholics/tree/main"
   },
-  "homepage": "https://github.com/Simon-Stasovski/Web2Project#readme",
+  "homepage": "https://github.com/amoscoloni/CardCollectionApplication_Cardoholics/blob/main/README.md",
   "dependencies": {
     "-": "^0.0.1",
     "body-parser": "^1.20.0",
