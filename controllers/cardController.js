@@ -342,10 +342,6 @@ async function editSpecificCard( request, response ){
             frontImagePath, backImagePath, isForSale, request.body.cardCondition, certificateImage, request.body.cardPrice, request.body.cardOwner );
 
         response.redirect( `/cards/user?id=${id}`);
-        // const dataToSend = { fabric: listOfFabric };
-        // response.status( 200 );
-        // response.render( 'showAllFabric.hbs', dataToSend );
-        // response.send( card );
     }
     catch( error ){
         if( error instanceof model.SystemError ){
@@ -400,15 +396,6 @@ async function deleteSpecificCard( request, response ){
             }
             response.redirect( '/cards/user' );
         }
-
-        // if( result ){
-        //     response.send( "Successfully deleted card with id " + id );
-        // }
-        // else{
-        //     response.send( `Unable to delete card with id: ${id}` );
-        // }
-
-        // response.status( 200 );
     }
     catch( error ){
         if( error instanceof model.SystemError ){
