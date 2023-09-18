@@ -1,7 +1,6 @@
 const mysql = require( 'mysql2/promise' );
 const validator = require( './validateCard' );
 const logger = require( '../logger' );
-// const database = require( './databaseModel' );
 var connection;
 
 //#region ERROR_CLASSES
